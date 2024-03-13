@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To Do List</h1>
+        </header>
+        
+        <h3>Enter</h3>
+        <ul>
+
+            <li class="items">item Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat ab perferendis molestias voluptate cum, odio voluptates odit dolor eos nostrum repellendus temporibus quas quis, ad nulla tempore! Officiis, nostrum.</li><button class="removeBtn btn"><i class="fa-solid fa-xmark"></i></button>
+            <button class="doneBtn btn"><i class="fa-solid fa-check"></i>
+            </button>
+            
+            <li class="items">item</li>
+            <button class="removeBtn btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="doneBtn btn"><i class="fa-solid fa-check"></i>
+            </button>
+
+            <li class="items">item</li>
+            <button class="removeBtn btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="doneBtn btn"><i class="fa-solid fa-check"></i>
+            </button>
+            
+        </ul>
+        <br>
+        <br>
+
+
+        <form>
+            <div>
+                <textarea placeholder="Enter new task"></textarea>
+            </div>
+            <div>
+                <button id="enter" >Submit
+                    <i></i>
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+
+    <style>
+        *{
+            font-family:'Courier New', Courier, monospace;
+            margin:0px;
+            padding: 0px;
+            /* font-size: large; */
+        }
+        body{
+            height:100vh;
+            background-color: bisque;
+        }
+        header{
+            font-size: larger;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            height: 50px;
+            width: 100%;
+        }
+
+        ul{
+            width: 79%;
+            /* margin-left:90px;
+            margin-right:90px; */
+            padding: 10px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            flex-flow: wrap;
+            background-color: rgb(167, 28, 167);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:space-around;
+        }
+        .items{
+            width: 60%;
+            margin: 10px;
+            padding:5px;
+            background-color: blue;
+        }
+        .btn{
+            font-size: large;
+            border: none;
+            border-radius: 10%;
+            margin: 10px;
+            padding: 7px;
+            height: 28px;
+            width: min-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            height: 160px;
+            width: 290px;
+            background-color: blue;
+            display: flex;
+
+        }
+        textarea{
+            margin: 20px;
+            padding: 10px;
+            font-size:large;
+            
+        }
+    </style>
+
+    <script>
+        // const list=document.querySelector('.list');
+        // const btn=document.querySelector('#btn');
+        // const inp=document.querySelector('#data');
+        // const removeBtn=document.querySelectorAll('.removeBtn');
+
+
+        // function removee(){
+        //     removeBtn.remove();
+        // }
+        // removeBtn.addEventListener('click',(e)=>{
+        //     removee();
+
+        // })
+        // btn.addEventListener('click',(e)=>{
+        //     e.preventDefault();
+        //     list.innerHTML=list.innerHTML+`<li>${inp.value}</li>`
+        // })
+    </script>
+</body>
+</html>
