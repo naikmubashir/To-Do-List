@@ -1,0 +1,117 @@
+
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin:0px;
+    padding: 0px;
+    font-size: 1em;
+    box-sizing:border-box;
+}
+h1{
+    text-align: center;
+font-size: 42px;
+    font-weight: 900;
+}
+body{
+    height:100vh;
+    background-color: rgb(16, 26, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   justify-content:normal;
+    background-color: aliceblue;
+    height:auto;
+    width: auto;
+    border:none;
+    border-radius: 10px;
+    padding: 20px;
+}
+#entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type:none;
+    width: 79%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow:wrap;
+
+    border: none;
+}
+ul li{
+    width: 650px;
+    margin-bottom:7px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(142, 154, 163);
+}
+.items{
+    width: 75%;
+    margin: 10px;
+    padding:5px;
+
+}
+.btn{
+
+    border: none;
+    border-radius: 10%;
+    /* margin: 10px;
+    padding: 7px; */
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* content: icon; */
+}
+form{
+    height: 26%;
+    width: max-content;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+#data{
+    padding: 25px;
+    color: black;
+    background-color: rgb(224, 217, 217);
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+#enter{
+    height: 68px;
+    width: 104px;
+
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    border: none;
+    /* padding: 10px;
+    display: flexbox;
+    justify-content:center ;
+    align-items: center;
+    text-align: center; */
+}
+.h{
+    padding: 10px;
+
+    height: 28px;
+    width: 28px;
+
+}
